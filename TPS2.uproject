@@ -3,6 +3,17 @@
 	"EngineAssociation": "{1B8E8A75-260A-1716-0004-01FA53993BA8}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "TPS2",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"AIModule",
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "DonAINavigation",
